@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codeeng"
+version = "0.1.0"
+description = "AI code creation bot"
+authors = ["Annie Ehler <annie.ehler.4@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.35.3"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
